@@ -1,0 +1,22 @@
+{
+    "name": "shirokikhyura/file-service-client",
+    "description": "Client for shirokikhyura/file-service",
+    "type": "library",
+    "homepage": "https://github.com/shirokikhyura/file-service-client",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Shirokikh Yura"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "psr/http-message": "~1.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShirokikhYura\\FileService\\": "src/"
+        }
+    }
+}
